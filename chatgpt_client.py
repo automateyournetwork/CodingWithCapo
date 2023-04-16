@@ -69,7 +69,7 @@ def send_chat_to_webex(answer):
 
 def send_mp3_to_webex():
     url = "https://webexapis.com/v1/messages"
-       
+
     message_with_mp3 = MultipartEncoder(
         {
         "roomId": f"{ webexRoomId }",
