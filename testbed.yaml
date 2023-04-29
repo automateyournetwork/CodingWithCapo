@@ -1,0 +1,18 @@
+---
+devices:
+  csr1000v-1:
+    alias: "Sandbox Router"
+    type: "router"
+    os: "iosxe"
+    platform: csr1000v
+    credentials:
+      default:
+        username: developer
+        password: 
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.10.20.48
+        port: 22
+        arguments:
+          connection_timeout: 360
