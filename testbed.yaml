@@ -8,7 +8,7 @@ devices:
     credentials:
       default:
         username: developer
-        password: 
+        password: C1sco12345
     connections:
       cli:
         protocol: ssh
